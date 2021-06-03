@@ -8,6 +8,7 @@ import { CardComponent } from './components/card/card.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LandingComponent } from './views/landing/landing.component';
 import { AppRoutingModule } from './app-routing.module';
+import { LoginComponent } from './views/login/login.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { AppRoutingModule } from './app-routing.module';
     CardComponent,
     FooterComponent,
     LandingComponent,
+    LoginComponent,
   ],
   imports: [BrowserModule, BrowserAnimationsModule, AppRoutingModule],
   providers: [],

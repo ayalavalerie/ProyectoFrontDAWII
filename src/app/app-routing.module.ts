@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router'; // CLI imports router
 import { LandingComponent } from './views/landing/landing.component';
+import { LoginComponent } from './views/login/login.component';
 
 const routes: Routes = [
-  { path: 'home', component: LandingComponent },
-  { path: '**', pathMatch: 'full', redirectTo: 'home' },
+  { path: '', component: LandingComponent },
+  { path: 'login', component: LoginComponent },
+  { path: '**', pathMatch: 'full', redirectTo: '' },
 ];
 
 // configures NgModule imports and exports
